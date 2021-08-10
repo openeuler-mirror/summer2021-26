@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="no"?> 
+<svg width="2000" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<rect x="72.5814282169405" width="9.22388983590287" y="150" height="145" style="fill:rgb(0,0,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(73.5814282169405,154) rotate(90)" font-size="3pt">cma_init_reserved_areas</text>
+<rect x="86.2298924359957" width="4.52844997788303" y="150" height="145" style="fill:rgb(0,255,0);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(87.2298924359957,154) rotate(90)" font-size="3pt">dma_atomic_pool_init</text>
+<rect x="94.9146810840553" width="59.3576705434302" y="150" height="145" style="fill:rgb(255,0,20);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(100.914681084055,154) rotate(90)">of_platform_default_populate_init</text>
+<rect x="155.326886146145" width="28.6052349793395" y="150" height="145" style="fill:rgb(255,255,20);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(161.326886146145,154) rotate(90)">param_sysfs_init</text>
+<rect x="193.291443698821" width="2.76913927218979" y="150" height="145" style="fill:rgb(255,0,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(194.291443698821,154) rotate(90)" font-size="3pt">bcm2835_dma_init</text>
+<rect x="196.085565708984" width="1.68962201555738" y="150" height="145" style="fill:rgb(0,255,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(197.085565708984,154) rotate(90)" font-size="3pt">regulator_fixed_voltage_init</text>
+<rect x="204.273329359471" width="1291.74693059586" y="150" height="145" style="fill:rgb(0,128,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(210.273329359471,154) rotate(90)">tracer_init_tracefs</text>
+<rect x="1498.96296351239" width="13.2277023163481" y="150" height="145" style="fill:rgb(0,255,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1499.96296351239,154) rotate(90)" font-size="3pt">chr_dev_init</text>
+<rect x="1512.46810570834" width="3.04657915178723" y="150" height="145" style="fill:rgb(255,0,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1513.46810570834,154) rotate(90)" font-size="3pt">inet_init</text>
+<rect x="1518.22596937069" width="2.20374046542724" y="150" height="145" style="fill:rgb(255,255,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1519.22596937069,154) rotate(90)" font-size="3pt">armv8_pmu_driver_init</text>
+<rect x="1520.45469257409" width="2.59820474921503" y="150" height="145" style="fill:rgb(255,128,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1521.45469257409,154) rotate(90)" font-size="3pt">arm_init</text>
+<rect x="1527.31048182632" width="8.15883626967616" y="150" height="145" style="fill:rgb(128,255,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1528.31048182632,154) rotate(90)" font-size="3pt">slab_sysfs_init</text>
+<rect x="1543.25867281986" width="2.36021129799633" y="150" height="145" style="fill:rgb(0,0,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1544.25867281986,154) rotate(90)" font-size="3pt">bcm2835_pinctrl_driver_init</text>
+<rect x="1547.48601506112" width="97.8600144030036" y="150" height="145" style="fill:rgb(0,255,0);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1553.48601506112,154) rotate(90)">brcm_pcie_driver_init</text>
+<rect x="1647.65890504806" width="2.12484760866982" y="150" height="145" style="fill:rgb(255,0,20);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1648.65890504806,154) rotate(90)" font-size="3pt">raspberrypi_clk_driver_init</text>
+<rect x="1658.01490737844" width="14.0389838600051" y="150" height="145" style="fill:rgb(255,255,20);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1659.01490737844,154) rotate(90)" font-size="3pt">brd_init</text>
+<rect x="1672.07229957169" width="16.2716517062433" y="150" height="145" style="fill:rgb(255,0,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1678.07229957169,154) rotate(90)">loop_init</text>
+<rect x="1696.36078040544" width="82.006494837575" y="150" height="145" style="fill:rgb(0,255,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1702.36078040544,154) rotate(90)">bcmgenet_driver_init</text>
+<rect x="1778.91952524032" width="70.5604562030014" y="150" height="145" style="fill:rgb(0,128,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1784.91952524032,154) rotate(90)">xhci_pci_init</text>
+<rect x="1859.50857841815" width="3.21093927003176" y="150" height="145" style="fill:rgb(0,255,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1860.50857841815,154) rotate(90)" font-size="3pt">raspberrypi_cpufreq_driver_init</text>
+<rect x="1866.58000814552" width="2.84277260516342" y="150" height="145" style="fill:rgb(255,0,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1867.58000814552,154) rotate(90)" font-size="3pt">gpio_led_driver_init</text>
+<rect x="1870.97828490975" width="9.766935666584" y="150" height="145" style="fill:rgb(255,255,128);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1871.97828490975,154) rotate(90)" font-size="3pt">vchiq_driver_init</text>
+<rect x="1886.59381102396" width="58.0441044784172" y="150" height="145" style="fill:rgb(255,128,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1892.59381102396,154) rotate(90)">deferred_probe_initcall</text>
+<rect x="1944.97583990549" width="3.40685653097989" y="150" height="145" style="fill:rgb(128,255,255);fill-opacity:0.5;stroke-width:1;stroke:rgb(0,0,0)"/>
+<text transform="translate(1945.97583990549,154) rotate(90)" font-size="3pt">genpd_debug_init</text>
+<text transform="translate(0,89) rotate(90)">0</text>
+<text transform="translate(130,89) rotate(90)">0.09</text>
+<text transform="translate(260,89) rotate(90)">0.19</text>
+<text transform="translate(390,89) rotate(90)">0.29</text>
+<text transform="translate(520,89) rotate(90)">0.39</text>
+<text transform="translate(650,89) rotate(90)">0.49</text>
+<text transform="translate(780,89) rotate(90)">0.59</text>
+<text transform="translate(910,89) rotate(90)">0.69</text>
+<text transform="translate(1040,89) rotate(90)">0.79</text>
+<text transform="translate(1170,89) rotate(90)">0.89</text>
+<text transform="translate(1300,89) rotate(90)">0.98</text>
+<text transform="translate(1430,89) rotate(90)">1.08</text>
+<text transform="translate(1560,89) rotate(90)">1.18</text>
+<text transform="translate(1690,89) rotate(90)">1.28</text>
+<text transform="translate(1820,89) rotate(90)">1.38</text>
+</svg>
