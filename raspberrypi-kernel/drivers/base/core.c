@@ -2430,7 +2430,7 @@ void device_initialize(struct device *dev)
 {
 	dev->kobj.kset = devices_kset;
 	kobject_init(&dev->kobj, &device_ktype);
-	INIT_LIST_HEAD(&dev->deferred_probe);
+	//INIT_LIST_HEAD(&dev->deferred_probe);
 	INIT_LIST_HEAD(&dev->dma_pools);
 	mutex_init(&dev->mutex);
 #ifdef CONFIG_PROVE_LOCKING
@@ -3133,7 +3133,7 @@ void device_del(struct device *dev)
 	device_remove_attrs(dev);
 	bus_remove_device(dev);
 	device_pm_remove(dev);
-	driver_deferred_probe_del(dev);
+	//driver_deferred_probe_del(dev);
 	device_platform_notify(dev, KOBJ_REMOVE);
 	device_remove_properties(dev);
 	device_links_purge(dev);
