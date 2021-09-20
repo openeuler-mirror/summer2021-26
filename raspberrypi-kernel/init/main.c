@@ -781,7 +781,7 @@ void __init __weak poking_init(void) { }
 
 void __init __weak pgtable_cache_init(void) { }
 
-bool initcall_debug = true;
+bool initcall_debug;
 core_param(initcall_debug, initcall_debug, bool, 0644);
 
 #ifdef TRACEPOINTS_ENABLED
@@ -1530,7 +1530,7 @@ static noinline void __init kernel_init_freeable(void)
 	lockup_detector_init();
 
 	kunit_run_all_tests();
-	wait_for_initramfs();
+
 	console_on_rootfs();
 
 	/*

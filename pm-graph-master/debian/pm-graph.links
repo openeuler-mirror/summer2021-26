@@ -1,0 +1,2 @@
+/usr/lib/pm-graph/bootgraph.py /usr/bin/bootgraph
+/usr/lib/pm-graph/sleepgraph.py /usr/bin/sleepgraph

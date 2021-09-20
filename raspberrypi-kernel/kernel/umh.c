@@ -3,7 +3,6 @@
  * umh - the kernel usermode helper
  */
 #include <linux/module.h>
-#include <linux/initrd.h>
 #include <linux/sched.h>
 #include <linux/sched/task.h>
 #include <linux/binfmts.h>
@@ -107,7 +106,7 @@ static int call_usermodehelper_exec_async(void *data)
 	}
 
 	commit_creds(new);
-	wait_for_initramfs();
+
 	retval = kernel_execve(sub_info->path,
 			       (const char *const *)sub_info->argv,
 			       (const char *const *)sub_info->envp);
