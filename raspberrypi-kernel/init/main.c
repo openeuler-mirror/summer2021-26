@@ -781,7 +781,7 @@ void __init __weak poking_init(void) { }
 
 void __init __weak pgtable_cache_init(void) { }
 
-bool initcall_debug;
+bool initcall_debug = true;
 core_param(initcall_debug, initcall_debug, bool, 0644);
 
 #ifdef TRACEPOINTS_ENABLED
